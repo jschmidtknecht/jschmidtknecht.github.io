@@ -1,12 +1,26 @@
-    <div className="cv-container">
-      <header className="cv-header">
-        <h1>Jayce Schmidtknecht</h1>
-        <p className="contact-info">
-          📧 jayce.schmidtknecht@gmail.com | 📱 (715) 461-0209 | 📍 San Diego, CA
-        </p>
-      </header>
+    <div style="display:flex; gap:2rem; align-items:flex-start;">
+      <aside style="width:220px; position:sticky; top:1rem; align-self:flex-start;">
+        <nav>
+          <h2>Contents</h2>
+          <ul style="list-style:none; padding:0; margin:0;">
+            <li><a href="#professional-summary">Professional Summary</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#things-i-love">Things I Love</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <div className="cv-container" style="flex:1;">
+        <header className="cv-header">
+          <h1>Jayce Schmidtknecht</h1>
+          <p className="contact-info">
+            📧 jayce.schmidtknecht@gmail.com | 📱 (715) 461-0209 | 📍 San Diego, CA
+          </p>
+        </header>
 
-      <section className="cv-section">
+      <section id="professional-summary" className="cv-section">
         <h2>Professional Summary</h2>
         <p>
           Manufacturing Engineering Manager with eight years of personnel and project management experience in a production and prototyping setting using Lean principles and a coaching leadership style. Ten years of mechanical and manufacturing engineering experience in continuous improvement, product design, manufacturing processes implementation, and cross-functional collaboration.
@@ -14,7 +28,7 @@
       </section>
 
 
-      <section className="cv-section">
+      <section id="work-experience" className="cv-section">
         <h2>Work Experience</h2>
         <div className="cv-item">
           <div className="cv-header-row">
@@ -60,7 +74,7 @@
         </div>
       </section>
 
-      <section className="cv-section">
+      <section id="skills" className="cv-section">
         <h2>Skills</h2>
         <div className="skills-grid">
           <div className="skill-category">
@@ -78,7 +92,7 @@
         </div>
       </section>
 
-      <section className="cv-section">
+      <section id="education" className="cv-section">
         <h2>Education</h2>
         <div className="cv-item">
           <div className="cv-header-row">
@@ -92,14 +106,14 @@
         </div>
       </section>
 
-      <section className="cv-section">
+      <section id="certifications" className="cv-section">
         <h2>Certifications</h2>
         <ul>
           <li>Six Sigma Green Belt - In Progress (2026)</li>
         </ul>
       </section>
 
-      <section className="cv-section">
+      <section id="things-i-love" className="cv-section">
         <h2>Things I Love</h2>
         <div className="love-gallery">
           <figure>
@@ -114,3 +128,4 @@
         </ul>
       </section>
     </div>
+  </div>
