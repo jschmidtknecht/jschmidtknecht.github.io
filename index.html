@@ -1,8 +1,13 @@
-    <div style="display:flex; gap:2rem; align-items:flex-start;">
-      <aside style="width:220px; position:sticky; top:1rem; align-self:flex-start;">
-        <nav>
-          <h2>Contents</h2>
-          <ul style="list-style:none; padding:0; margin:0;">
+    <div className="cv-page" style="font-family:'Roboto', Arial, sans-serif;">
+      <header className="cv-header" style="display:flex; flex-direction:column; gap:1rem;">
+        <div>
+          <h1 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:1000;">Jayce Schmidtknecht</h1>
+          <p className="contact-info">
+            📧 jayce.schmidtknecht@gmail.com | 📱 (715) 461-0209 | 📍 San Diego, CA
+          </p>
+        </div>
+        <nav style="background:#f8f8f8; padding:0.75rem 1rem; border-radius:0.5rem;">
+          <ul style="display:flex; gap:1rem; flex-wrap:wrap; list-style:none; padding:0; margin:0;">
             <li><a href="#professional-summary">Professional Summary</a></li>
             <li><a href="#work-experience">Work Experience</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -11,17 +16,10 @@
             <li><a href="#things-i-love">Things I Love</a></li>
           </ul>
         </nav>
-      </aside>
-      <div className="cv-container" style="flex:1;">
-        <header className="cv-header">
-          <h1>Jayce Schmidtknecht</h1>
-          <p className="contact-info">
-            📧 jayce.schmidtknecht@gmail.com | 📱 (715) 461-0209 | 📍 San Diego, CA
-          </p>
-        </header>
+      </header>
 
       <section id="professional-summary" className="cv-section">
-        <h2>Professional Summary</h2>
+        <h2 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Professional Summary</h2>
         <p>
           Manufacturing Engineering Manager with eight years of personnel and project management experience in a production and prototyping setting using Lean principles and a coaching leadership style. Ten years of mechanical and manufacturing engineering experience in continuous improvement, product design, manufacturing processes implementation, and cross-functional collaboration.
         </p>
@@ -29,10 +27,10 @@
 
 
       <section id="work-experience" className="cv-section">
-        <h2>Work Experience</h2>
+        <h2 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Work Experience</h2>
         <div className="cv-item">
           <div className="cv-header-row">
-            <h3>Manufacturing Engineering Manager</h3>
+            <h3 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Manufacturing Engineering Manager</h3>
             <span className="date">Sept 2025 - June 2026</span>
           </div>
           <p className="company">AprilAire, Division of Research Products Corporation</p>
@@ -46,7 +44,7 @@
 
         <div className="cv-item">
           <div className="cv-header-row">
-            <h3>Manufacturing Manager</h3>
+            <h3 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Manufacturing Manager</h3>
             <span className="date">May 2019 - Sept 2025</span>
           </div>
           <p className="company">Extreme Engineering Solutions, Inc.</p>
@@ -61,7 +59,7 @@
 
                 <div className="cv-item">
           <div className="cv-header-row">
-            <h3>Mechanical Engineer</h3>
+            <h3 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Mechanical Engineer</h3>
             <span className="date">May 2016 - May 2019</span>
           </div>
           <p className="company">Extreme Engineering Solutions, Inc.</p>
@@ -74,29 +72,11 @@
         </div>
       </section>
 
-      <section id="skills" className="cv-section">
-        <h2>Skills</h2>
-        <div className="skills-grid">
-          <div className="skill-category">
-            <h4>Manufacturing</h4>
-            <p>Lean Manufacturing, Continuous Improvement, OEE, Process Optimization, Production Planning</p>
-          </div>
-          <div className="skill-category">
-            <h4>Engineering</h4>
-            <p>Mechanical Engineering, Manufacturing Engineering, Product Design, Root Cause Analysis, Capital Projects</p>
-          </div>
-          <div className="skill-category">
-            <h4>Leadership</h4>
-            <p>Personnel Management, Cross-Functional Collaboration, Coaching, Budget Management, Safety and Quality</p>
-          </div>
-        </div>
-      </section>
-
       <section id="education" className="cv-section">
-        <h2>Education</h2>
+        <h2 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Education</h2>
         <div className="cv-item">
           <div className="cv-header-row">
-            <h3>Bachelor of Science in Mechanical Engineering</h3>
+            <h3 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Bachelor of Science in Mechanical Engineering</h3>
             <span className="date">May 2016</span>
           </div>
           <p className="company">University of Wisconsin–Madison</p>
@@ -107,21 +87,41 @@
       </section>
 
       <section id="certifications" className="cv-section">
-        <h2>Certifications</h2>
+        <h2 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Certifications</h2>
         <ul>
           <li>Six Sigma Green Belt - In Progress (2026)</li>
         </ul>
       </section>
 
+      <section id="skills" className="cv-section">
+        <h2 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Skills</h2>
+        <div className="skills-grid">
+          <div className="skill-category">
+            <h4 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Manufacturing</h4>
+            <p>Lean Manufacturing, Continuous Improvement, OEE, Process Optimization, Production Planning</p>
+          </div>
+          <div className="skill-category">
+            <h4 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Engineering</h4>
+            <p>Mechanical Engineering, Manufacturing Engineering, Product Design, Root Cause Analysis, Capital Projects</p>
+          </div>
+          <div className="skill-category">
+            <h4 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Leadership</h4>
+            <p>Personnel Management, Cross-Functional Collaboration, Coaching, Budget Management, Safety and Quality</p>
+          </div>
+        </div>
+      </section>
+
       <section id="things-i-love" className="cv-section">
-        <h2>Things I Love</h2>
+        <h2 style="font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight:700;">Things I Love</h2>
+        <ul>
+          <li>Exploring the world of coffee, from brewing methods (espresso, pour-over, moka pot, AeroPress) to learning how different origins, processing methods, and rosasting affect the final product. </li>
+        </ul>
         <div className="love-gallery">
           <figure>
             <img src="Coffee_Collection.jpg" alt="Coffee collection" style="max-width:65%;height:auto;" />
           </figure>
         </div>
         <ul>
-          <li>Building and improving systems that make work better</li>
           <li>Spending time with family and friends</li>
           <li>Traveling, exploring new places, and trying new food</li>
           <li>Staying active through fitness and outdoor activities</li>
